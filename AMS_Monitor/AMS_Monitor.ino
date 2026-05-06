@@ -38,12 +38,12 @@
 #define DEMO_MODE  true    
 
 // ── WiFi + Server ─────────────────────────────────────────
-const char* WIFI_SSID     = "snehit";
-const char* WIFI_PASSWORD = "snehit123";
-const char* SERVER_URL          = "http://192.168.1.68:5000/predict";
-const char* EMERGENCY_URL       = "http://192.168.1.68:5000/emergency";
-const char* SESSION_START_URL   = "http://192.168.1.68:5000/session/start";
-const char* SESSION_END_URL     = "http://192.168.1.68:5000/session/end";
+const char* WIFI_SSID     = "your ssid";
+const char* WIFI_PASSWORD = "your password";
+const char* SERVER_URL          = "http://192.168.x.x:5000/predict";
+const char* EMERGENCY_URL       = "http://192.168.x.x:5000/emergency";
+const char* SESSION_START_URL   = "http://192.168.x.x:5000/session/start";
+const char* SESSION_END_URL     = "http://192.168.x.x:5000/session/end";
 
 // Reading window length (ms)
 #define READING_DURATION_MS 20000
